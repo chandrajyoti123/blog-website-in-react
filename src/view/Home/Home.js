@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import BlogCard from '../../components/BlogCard/BlogCard'
 import './Home.css'
 import SecondBlogCard from '../../components/SecondBlogCard/SecondBlogCard'
@@ -6,9 +6,24 @@ import jsondatablog from './../../blogdata/jsondataofblog.json'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import FirstBlogCard from '../../components/FirstBlogCard/FirstBlogCard'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     const [blogdata, setBlogdata] = useState(jsondatablog.blogs)
+    const [search,setSearch]=useState('')
+   useEffect(()=>{
+
+    const filterdcard=jsondatablog.blogs.filter((data,i)=>{
+        const {title}=data
+        const stringtitle=title.toLowerCase()
+        const stringsearch=search.toLowerCase()
+        return (stringtitle.includes(stringsearch))
+
+    })
+    setBlogdata(filterdcard)
+
+   },[search])
+    
     // -------scroll bar --------
 
 
@@ -38,7 +53,9 @@ export default function Home() {
             </div>
             <div className='navbarbody'>
                 <div className='navbar-main-heading'>Our BlogRoom</div>
-                <input type='text' placeholder='Search Blog' className='searchbar'/>
+                <input type='text' placeholder='Search Blog' className='searchbar' value={search} onChange={(e)=>{
+                    setSearch(e.target.value)
+                }}/>
 
             </div>
 
@@ -61,9 +78,9 @@ export default function Home() {
                 <div className='sectionone' id='flex-scroll'>
                     {
                         blogdata.map((singledata, i) => {
-                            const { img, title, data, author, } = singledata
+                            const { img, title, data, author,userimg } = singledata
                             if (i < 3) {
-                                return <BlogCard blogimg={img} blogtitle={title} blogdate={data} authorname={author} />
+                                return <Link to={`/detail/${i}`}><BlogCard blogimg={img} blogtitle={title} blogdate={data} authorname={author} userimg={userimg}/></Link>
                             }
 
 
@@ -84,9 +101,9 @@ export default function Home() {
 
                 {
                     blogdata.map((singledata, i) => {
-                        const { img, title, data, author, } = singledata
+                        const { img, title, data, author, userimg} = singledata
 
-                        return <SecondBlogCard blogimg={img} blogtitle={title} blogdate={data} authorname={author} />
+                        return <Link to={`/detail/${i}`}><SecondBlogCard blogimg={img} blogtitle={title} blogdate={data} authorname={author} userimg={userimg} /></Link>
 
 
 

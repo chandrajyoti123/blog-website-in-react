@@ -3,7 +3,7 @@ import img1 from './blog2.webp'
 import img2 from './blog3.webp'
 import './BlogCard.css'
 
-export default function BlogCard({blogimg,blogtitle,authorname,blogdate}) {
+export default function BlogCard({blogimg,blogtitle,authorname,blogdate,userimg}) {
     return (
         <div className='blogcard' >
             <img src={ blogimg}  className='blogimg'/>
@@ -12,7 +12,7 @@ export default function BlogCard({blogimg,blogtitle,authorname,blogdate}) {
                     <div className='blogheading'>{blogtitle}</div>
                     <div className='blogdetails'>
                         <div className='author'>
-                            <img src={img2} className='authorimg'/>
+                            <img src={userimg} className='authorimg'/>
                             <div className='authornamedatail'> <span className='authorname'>{authorname}</span> <span className='channel'>bcc news</span></div>
                         </div>
                         <div className='blogdata'>{blogdate} </div>

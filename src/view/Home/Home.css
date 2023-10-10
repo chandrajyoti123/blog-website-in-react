@@ -42,6 +42,13 @@ display: flex;
     font-size: 23px;
     color: white;
     font-weight: 300;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navlink:hover{
+    
+    color: rgb(243, 224, 224);
+    
 }
 .btncontainer{
     width: 15%;
@@ -138,6 +145,7 @@ display: flex;
 .scroll-angle{
     font-size: 40px;
     cursor: pointer;
+    color: rgb(43, 42, 42);
 }
 .sectionone{
     width: 80%;

@@ -1,0 +1,45 @@
+.detailpagecon{
+    width: 100%;
+    height: auto;
+   
+}
+.detailpageimg{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 700px;
+}
+.detailheading{
+    font-size: 45px;
+    color: rgb(37, 33, 33);
+    font-weight: bold;
+    padding: 20px 15% 10px 10%;
+}
+.detail-description{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(97, 86, 86);
+    padding: 10px 15% 5px 10%;
+}
+.subdetailheading{
+    font-size: 35px;
+    color: rgb(37, 33, 33);
+    font-weight: bold;
+    padding: 0 15% 0 10%;
+
+}
+.gotohome{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homebtn{
+    background-color: rgb(37, 33, 33);
+    color: white;
+    padding: 10px 15px ;
+    font-size: 20px;
+    border: none;
+    border: none;
+}
