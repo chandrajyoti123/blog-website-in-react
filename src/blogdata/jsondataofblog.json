@@ -71,6 +71,15 @@
             "subdescription": "Our commitment to Indian users and the country’s digital transformation stands undeterred. Through Android, Google has contributed significantly to the mobile ecosystem by giving OEMs unprecedented choice and flexibility, offering baseline compatibility for developers that has allowed them to scale their services across devices, and ensuring a safe, secure, and trusted platform for users in India and around the world.",
             "data": "25 June",
             "outhor": "karan pal"
+        },
+        {
+            "img": "./img/blog8.jpg",
+            "title": "Updates to Android and Google Play in India",
+            "description": "  At Google, we have been privileged to play a part in India’s embrace of technology to improve lives in three key ways: bringing access to affordable devices, building helpful and secure products to meet the evolving needs of Indian users, and partnering with India's vibrant developer community to grow and reach a global audience.We take our commitment to comply with local laws and regulations in India seriously. The Competition Commission of India (CCI)’s recent directives for Android and Play require us to make significant changes for India, and today we’ve informed the CCI of how we will be complying with their directives.",
+            "subheading": "OEMs will be able to license individual Google apps for pre-installation on their devices.",
+            "subdescription": "Our commitment to Indian users and the country’s digital transformation stands undeterred. Through Android, Google has contributed significantly to the mobile ecosystem by giving OEMs unprecedented choice and flexibility, offering baseline compatibility for developers that has allowed them to scale their services across devices, and ensuring a safe, secure, and trusted platform for users in India and around the world.",
+            "data": "25 June",
+            "outhor": "karan pal"
         }
     ]
 }

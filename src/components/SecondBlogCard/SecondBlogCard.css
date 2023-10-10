@@ -1,12 +1,12 @@
 .blog-card-two{
-    width: 300px;
+    width: 350px;
     height: 400px;
     background-color: pink;
     position: relative;
-    margin: 0 10px;
+margin: 30px 15px 30px 0;
 }
 .blogimg-two{
-    width: 300px;
+    width: 350px;
     height: 400px;
 
 }

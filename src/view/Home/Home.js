@@ -5,6 +5,7 @@ import SecondBlogCard from '../../components/SecondBlogCard/SecondBlogCard'
 import jsondatablog from './../../blogdata/jsondataofblog.json'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import FirstBlogCard from '../../components/FirstBlogCard/FirstBlogCard'
 
 export default function Home() {
     const [blogdata, setBlogdata] = useState(jsondatablog.blogs)
@@ -17,6 +18,8 @@ export default function Home() {
     }
     return (
         <>
+
+     <FirstBlogCard/>
             <div className='section-one-con'>
                 <div className='section-one-left'>
                     <span onClick={() => {
@@ -43,7 +46,7 @@ export default function Home() {
                     }}> <FontAwesomeIcon icon={faAngleRight} className='scroll-angle' /></span>
                 </div>
             </div>
-            <div className='secton-tow-con'>
+            <div className='section-tow-con'>
 
                 {
                     blogdata.map((singledata, i) => {

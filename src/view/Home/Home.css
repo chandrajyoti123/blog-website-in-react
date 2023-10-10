@@ -41,11 +41,18 @@
 
  .section-tow-con{
     width: 80%;
-    height: 400px;
-    background-color: aqua;
+    height:auto;
+   
  margin:  40px 10% ;
  display: flex;
- justify-content: space-evenly;
+ justify-content: space-between;
  align-items: center;
  flex-wrap: wrap;
+   }
+
+
+   /* --------section three ---------- */
+
+ .section-three{
+    margin: 0 auto;
    }
