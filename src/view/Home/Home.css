@@ -1,3 +1,126 @@
+body{
+    position: relative;
+}
+.header{
+    width: 100vw;
+    height: 650px;
+
+    position: relative;
+    background:linear-gradient(10deg,rgba(0, 0, 0,0.7),rgba(255, 255, 255,0.5)),url("./bacground-img.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigationbar{
+    width: 100%;
+    height: 100px;
+   
+display: flex;
+}
+.logo{
+    width: 25%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbarlogo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    
+}
+.navlinkbar{
+    width: 60%;
+    height: 100%;
+    
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navlink{
+    font-size: 23px;
+    color: white;
+    font-weight: 300;
+}
+.btncontainer{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  
+}
+.navbarbtn{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 3px solid white;
+    font-size:20px ;
+    background-color: transparent;
+    border-radius: 3px;
+    color: white;
+   
+}
+.waveofheader{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.navbarbody{
+    width: 100%;
+   
+ 
+    margin-top: 80px;
+    
+    
+}
+.navbar-main-heading{
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.searchbar{
+    width: 55%;
+    display: block;
+    margin: 30px auto;
+    height: 50px;
+    background-color: white;
+    border: none;
+    font-size: 23px;
+    padding-left: 20px;
+    color: rgb(30, 28, 28);
+    border-radius: 5px;
+}
+
+
+/* ----------header end------------ */
+/* .body-of-website{
+  width: 100vw;
+  height: 2500px;
+  
+  position: absolute;
+  top: 490px;
+ 
+   
+} */
+
+.section-three{
+    width: 100%;
+    height: 350px;
+    /* background-color: red; */
+
+}
+
+.heading{
+    padding:  4% 10% 2% 10%;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(21, 21, 46);
+}
 .section-one-con{
     width: 100%;
     height: 500px;
@@ -43,7 +166,7 @@
     width: 80%;
     height:auto;
    
- margin:  40px 10% ;
+ margin:  0px 10% ;
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -55,4 +178,15 @@
 
  .section-three{
     margin: 0 auto;
+   }
+
+   .footer{
+    width: 100%;
+   padding: 23px 0;
+   font-weight: 500;
+    background-color:rgba(0, 0, 0,0.7) ;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
    }
