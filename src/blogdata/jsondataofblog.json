@@ -1,0 +1,76 @@
+{
+    "blogs": [
+        {
+            "img": "./img/blog1.jpeg",
+            "title": "Meet Pixel 8 and Pixel 8 Pro, our newest phones",
+            "description": "Meet Pixel 8 and Pixel 8 Pro, engineered by Google and built with AI at the center for a more helpful and personal experience. These phones are packed with first-of-their-kind features, all powered by Google Tensor G3. And they’ll get seven years of software updates, including Android OS upgrades, security updates and regular Feature Drops. Take a closer look at the new phones — everything from the beautiful design and new sensors to updated cameras.",
+            "subheading": "A polished look made for your everyday",
+            "subdescription": "Pixel 8 and Pixel 8 Pro are elegantly designed with softer silhouettes, beautiful metal finishes and recycled materials. Pixel 8, with its contoured edges and smaller size than Pixel 7, feels great in your hand. It has a 6.2-inch Actua display, which gives you real-world clarity and is 42% brighter than Pixel 7s display. Pixel 8 features satin metal finishes, a polished glass back and comes in Rose, Hazel and Obsidian.",
+            "data": "2 May",
+            "outhor": "krishan shub"
+        },
+        {
+            "img": "./img/blog2.webp",
+            "title": "Google Pixel Watch 2: Stay healthy, connected and safe",
+            "description": "Today we’re introducing our latest smartwatch, Google Pixel Watch 2 in India. Pixel Watch 2 comes with powerful performance, all-day battery life (with always-on display), safety features and sensors for deeper health insights — including our most accurate heart rate tracking on any tracker or smartwatch1 — to give you a much better pulse on your day.",
+            "subheading": "Wear all day and night",
+            "subdescription": "From the inside out, Pixel Watch 2 is designed for all-day (and night) wear. Its housing is made from 100% recycled aluminum which makes it 10% lighter than Pixel Watch2 — so it’s even more comfortable, especially when you’re sleeping. The crown is also larger and more flush with the circular silhouette for easier access and navigation.Inside, Pixel Watch 2 has an all-new, quad-core CPU for smoother and stronger performance. Together with the low-power co-processor, the new CPU gives the watch 24 hours of battery life, even with always-on display.3 4 Combined with a faster charging rate that powers your watch to 50% in just 30 minutes,5 your Pixel Watch 2 can support your activities from day to night.",
+            "data": "10 May",
+            "outhor": "Sandeep Waraich"
+        },
+        {
+            "img": "./img/blog3.webp",
+            "title": "Made on YouTube: Empowering anyone to Create on YouTube",
+            "description": "We are constantly amazed by how they take every new feature, technology or trend and turn it into something we could never have imagined. And today at Made On YouTube, we're unveiling a suite of products and features that will enable people to push the bounds of creative expression yet again — by making the difficult things simple, and the impossible dreams possible.",
+            "subheading": "New forms of creative expression on Shorts",
+            "subdescription": "Since YouTube Shorts launched in 2020, it has been a destination for sharing off-the-cuff ideas and inspiration. Driven by this creativity, Shorts has now climbed to over 70B daily views from over 2B signed-in users every month. And now, we’re announcing new tools that make it easier than ever for anyone to express any idea and bring it to life on Shorts.",
+            "data": "11 May",
+            "outhor": "Toni Ried"
+        },
+        {
+            "img": "./img/blog4.webp",
+            "title": "How the Ingenuity of Indian Creators and Fans is Shaping a New Digital Video Wave",
+            "description": " been 15 years of doing this: discovering new content, uncovering thousands of others who are fascinated by the same niche interest as you, and falling in love with passionate creators and artists. And, it has been quite a journey!  In 2008, we launched our localized version of YouTube in India. Since then, creators in India have explored - and conquered - new frontiers of creative expression..",
+            "subheading": " Creation has become frictionless",
+            "subdescription": "The array of available video tools has exploded, enabling users to easily clip or remix video and audio, add filters and effects, or even turn into virtual avatars. In a world where creation is made simpler and fun, that it can be a form of entertainment in itself, participation in pop culture and the creator economy is easier than ever before.",
+            "data": "11 May",
+            "outhor": "Ishan John"
+        },
+        {
+            "img": "./img/blog4.jpg",
+            "title": "Bard can now connect to your Google apps and services",
+            "description": "One of the biggest benefits of Bard, an experiment to collaborate with generative AI, is that it can tailor its responses to exactly what you need. For instance, you could ask Bard to start a trip planning Doc for you and your friends, draft up your online marketplace listing, or help explain a science topic to your kids. And now, Bard is getting even better at customizing its responses so you can easily bring your ideas to life.",
+            "subheading": "Connect to Google apps and services",
+            "subdescription": "Today we’re launching Bard Extensions in English, a completely new way to interact and collaborate with Bard. With Extensions, Bard can find and show you relevant information from the Google tools you use every day — like Gmail, Docs, Drive, Google Maps, YouTube, and Google Flights and hotels — even when the information you need is across multiple apps and services.",
+            "data": "32 May",
+            "outhor": "Yuri pinki"
+        }, 
+        {
+            "img": "./img/blog6.avif",
+            "title": "Google Play Games beta on PC launches in India",
+            "description": "   At Google Play, we’re committed to meeting players where they are and giving them access to their games on as many devices as possible. Last year, we launched Google Play Games on PC to enable players to experience an immersive and seamless cross-platform gameplay. We have been offering this as a beta experience to gather early feedback so we can continue improving the product to fit the needs of players and developers around the world.",
+            "subheading": "New forms of creative expression on Shorts",
+            "subdescription": "We are excited to announce that Google Play Games beta on PC is now available to players in India. Players participating in the beta can play mobile games across their phones, tablets, Chromebooks, and PCs. Users in India can access this in English and Hindi. Besides India, we are launching in over 60 new regions. With this, Google Play Games beta on PCs is now available to players in over 120 regions1",
+            "data": "25 May",
+            "outhor": "arujun"
+        },
+        {
+            "img": "./img/blog7.jpg",
+            "title": "Bringing Search Labs and generative AI experiences to Search in India",
+            "description": " People across India have diverse needs when it comes to seeking out information, and we have always focussed on innovations that make the Search experience more natural and intuitive. In December last year, we showed how we’re using AI innovations in India for Search that focus on bilingual users’ needs, new search capabilities with your camera, and a new speech recognition model for Hinglish users. In fact, more people use Google Lens in India every month than in any other country worldwide, and the percentage of Indians using voice queries daily is nearly twice the global average.",
+            "subheading": "Improving Search with generative AI",
+            "subdescription": "With new generative AI capabilities in Search, we’re now taking more of the work out of searching, so you’ll be able to understand a topic faster, uncover new viewpoints and insights, and get things done more easily. Especially for new internet users, who may often get overwhelmed with the amount of information online, finding an answer more quickly can help ease their journey of discovery.",
+            "data": "11 May",
+            "outhor": "vivek sharma"
+        },
+        {
+            "img": "./img/blog8.jpg",
+            "title": "Updates to Android and Google Play in India",
+            "description": "  At Google, we have been privileged to play a part in India’s embrace of technology to improve lives in three key ways: bringing access to affordable devices, building helpful and secure products to meet the evolving needs of Indian users, and partnering with India's vibrant developer community to grow and reach a global audience.We take our commitment to comply with local laws and regulations in India seriously. The Competition Commission of India (CCI)’s recent directives for Android and Play require us to make significant changes for India, and today we’ve informed the CCI of how we will be complying with their directives.",
+            "subheading": "OEMs will be able to license individual Google apps for pre-installation on their devices.",
+            "subdescription": "Our commitment to Indian users and the country’s digital transformation stands undeterred. Through Android, Google has contributed significantly to the mobile ecosystem by giving OEMs unprecedented choice and flexibility, offering baseline compatibility for developers that has allowed them to scale their services across devices, and ensuring a safe, secure, and trusted platform for users in India and around the world.",
+            "data": "25 June",
+            "outhor": "karan pal"
+        }
+    ]
+}
